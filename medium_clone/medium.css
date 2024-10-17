@@ -1,0 +1,97 @@
+body{
+    margin:0 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    border-bottom: 1px black solid;
+}
+.logo{
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0 20px;
+}
+.list-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    gap: 10px;
+}
+.list-container ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-container ul li{
+    margin: 0 10px;
+    font-size: 15px;
+}
+.list-container button{
+    margin: 0;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 0 20px;
+}
+.first{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px black solid;
+    height: 80vh;
+    overflow: hidden;
+}
+.first .heading {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+.first .heading h1{
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.first .heading h3{
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.first .heading button{
+    margin: 0;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 10px 25px;
+    width: fit-content;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.first .image img{
+    width: 40vw;
+    position: relative;
+    top: -25px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer ul{
+    display: flex;
+    list-style-type: none;
+    color: rgb(103, 101, 101);
+}
+.footer ul li{
+    margin: 2px 7px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
