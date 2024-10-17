@@ -56,8 +56,57 @@ num = fun6()();
 console.log(num()); //70
 
 
-//ARRAY METHODS
+
+//forIn iterates over index
+//forOf iterates over values (structure should be iterable)
+
+let person = {
+    "nm" : "anshika",
+    "age" : 20,
+    "educator" : "Btech"
+};
+for(let i in person){
+    console.log(i);
+}
+// for(let i of arr){
+//     console.log(arr[key]);
+// }
+
+
+
+//ARRAY METHODS : they all takes callback function
 // -> map()
 // -> filter()
 // -> reduce()
 // -> forEach()
+let arr = [1, 2, 3, 4, 5];
+// function mymap(item){
+//     return item*3;
+// }
+// let newArr = arr.map(mymap);
+
+// let newArr = arr.map((item) => { 
+//     return item*3; 
+// });
+
+let mapArr = arr.map(item => item*3 );
+console.log(mapArr);
+
+let filterArr = arr.filter(item => item%2==0 )// 0 and 1 for true and false
+console.log(filterArr);
+
+let ans = arr.reduce((acc, currValue) => {
+    acc = acc + currValue;
+    return acc;
+});
+console.log(ans);
+
+//map -> returns a new array
+// foreach -> doesnt return a new array
+
+
+/*question: given an array of numbers, filter out the even 
+numbers then double the value of remaining numbers and then calculate their sum*/
+let array = [15, 19, 20,22,18, 13, 16,11];
+let ansArray = array.filter(item => item%2!=0).map(item => item*2).reduce((a, b) => a + b, 0);
+console.log(ansArray);//116
