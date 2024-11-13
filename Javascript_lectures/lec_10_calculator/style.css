@@ -32,3 +32,11 @@ body{
     height: 100%;
     padding: 6px;
 }
+.btnc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    grid-column: 1 / span 3;
+
+}
