@@ -24,3 +24,7 @@ Modules :   http (used to create webservers),
                 absolute -> from root directory)
 
 
+npm init : intiaalising project
+package.json: stores data of libraries or packages, dependencies and other details
+scripts in package.json : custom commands
+
