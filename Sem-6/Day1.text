@@ -1,0 +1,26 @@
+Revise : HTML CSS JS React( Object Class Controls Promises Callback EventLoop Functions Closure)
+
+NODE : Framework
+MongoDB : Database
+Express : ( less Number of Lines )
+API : Medioter between Client and Server ( Like waiter for customer and chef ) 
+API Gateway : ( like a restaurant with multiple chefs and waiters )
+Restful : one of the pattern to create API
+MongoDB framework : Mongoose have : MongoClient for Server to Databse Connection
+Explore Library : Encryption, Cookies, Session
+
+React : Conatext API, Hook, Custom-hooks ( already done: Components, Routing, State, Props)
+Node : Runtime environment for JS ( JS Engine & C++ )
+JS : Single Threded ( But multiple tasks can be performed parallely in NodeJS )
+JS : Event Loop ( Single Threaded, Non-Blocking, Asynchronous )
+Asynchronous : Main and side thread only ( Limited Resources in JS )
+Node : has C++ which is low level sso resource sharing becomes easier and more accessible ( lib.uv library )
+Modular Programming Pattern : Features Divided into independent modules ( followed by JS )
+Modules :   http (used to create webservers), 
+            fs (file system -> read, write or update), 
+            os (used to get resources from machine), 
+            path (relative and absolute paths of files 
+                relative -> from parent directore, 
+                absolute -> from root directory)
+
+
