@@ -1,0 +1,5 @@
+Client Side to Server Side data send through forms
+Data send in form through post method
+Data goes into body of request
+Another method is get method which data goes through URL in req.parameter
+Or get -> URL -> req.query

@@ -1,0 +1,19 @@
+Get -> URL -> req.query
+Get -> URL -> req.parameter
+
+https://amazon.in/products/xyz259
+https -> Protocol + SSL (s means Secured)
+amazon.in -> Domain 
+https://amazon.in -> base URL
+products/xyz259 -> URL path (params -> reuired on server)
+
+https://amazon.in/products?type="men"&color="blue"
+https://amazon.in -> base URL
+products -> URL path (params)
+type="men" -> query parameter
+color="blue" -> query parameter
+query -> key:value pair
+& -> parameter separator like a delimeter
+
+https://glauniversity/students/2215000286
+to get params : app.get('/students/:rolln', ()=>{})
