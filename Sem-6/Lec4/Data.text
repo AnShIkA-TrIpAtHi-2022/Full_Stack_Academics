@@ -6,3 +6,12 @@ Create: post method
 Update: put method -> if you want to change majority of properties
         patch method -> if you want to change only few properties
 Delete: delete method
+Middlewares: between request and response cycle
+        Like normal functions but incluse a next() function
+        if next() function is not there then execution stops there and loading buffering happens
+        multiple middlewares are allowed
+        Array of middlewares can also be passed
+next(): passes execution thread to immediate next function in the api/route statement
+Types of Middlewares: 
+        Application Level
+        Route Level (Generally used)

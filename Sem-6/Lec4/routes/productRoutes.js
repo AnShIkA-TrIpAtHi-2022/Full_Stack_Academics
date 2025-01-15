@@ -26,4 +26,4 @@ router.delete('/product/delete/:id',(req,res)=>{
     res.send(req.params.id);
 })
 
-modules.export = router;
+module.exports = router;

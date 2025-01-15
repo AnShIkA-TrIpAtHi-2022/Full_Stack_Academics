@@ -25,3 +25,4 @@ router.patch('/user/:id',(req,res)=>{
 router.delete('/user/delete/:id',(req,res)=>{
     res.send(req.params.id);
 })
+module.exports = router;
