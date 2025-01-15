@@ -1,4 +1,4 @@
-const {add, sub} = require('./mathFeatures.js');//using same variables for multiple exports
+const {add, sub} = require('./mathFeatures.js').default;//using same variables for multiple exports
 
 console.log("Hello World");
 console.log(add(40, 60));

@@ -1,0 +1,8 @@
+endpoint operation: CRUD
+CRUD operation: create read update delete
+API: sending response of data to the server through route handling
+Read: get method
+Create: post method
+Update: put method -> if you want to change majority of properties
+        patch method -> if you want to change only few properties
+Delete: delete method
