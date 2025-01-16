@@ -1,0 +1,8 @@
+MVC: Controllers
+    Views
+    Models
+Controllers: executable functions on routing, functionalities logic
+Views:  HTML
+        app.use(express.static...) middleware : no need to render css and js again
+        res.sendFile(absolute file path) : need to define css and js separately
+Templating Languages: HTML inside JavaScript, ejs, hbs, liquid, moustache, pug.
