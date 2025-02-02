@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="header">
+        <h1>WELCOME TO USER MANAGEMENT SYSTEM</h1>
+        <a href="/new"><button>Add New User</button></a>
+    </section>
+    <section class="container">
+        <h2> User Details</h2>
+        <% for(let user of Users){ %>
+            <section class="user-card">
+                <h1>Email: <%= user.email %></h1>
+            <h1>Password: <%= user.password %></h1>
+            <h1>Contact: <%= user.contact %></h1>
+            <div>
+                <a href="/update/<%= user.id%>"><button type="submit">Edit</button></a>
+                <form action="/delete/<%= user.id%>?_method=DELETE" method="POST">
+                    <button type="submit">Delete</button>
+                </form>
+            </div>
+            </section>
+        <% } %>
+    </section>
+</body>
+</html>
